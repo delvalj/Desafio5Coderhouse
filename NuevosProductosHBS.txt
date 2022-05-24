@@ -1,0 +1,1 @@
+[{"title":"Disco de Metallica ","thumbnail":"M","price":"188","id":1},{"title":"Disco de Frank Zappa","thumbnail":"FZ","price":"266","id":2},{"title":"Disco de Strokes","thumbnail":"Strokessss","price":"411","id":3},{"title":"Disco de Mana","thumbnail":"Mn","price":"0","id":4}]

@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Productos EJS</title>
+  </head>
+  <body>
+    <h1>Lissta de productos EJS</h1>
+    <!-- <form action="/api/productos" method="POST">
+      <input type="text" name="titulo" />
+      <input type="text" name="thumbnail" />
+      <input type="number" name="precio" />
+      <button type="submit"></button>
+    </form>
+    <hr /> -->
+    <table>
+      <thead>
+        <th>Titulo</th>
+        <th>Thumbnail</th>
+        <th>Precio</th>
+      </thead>
+      <tbody>
+        <% showProductos.forEach((producto) => { %>
+        <tr>
+          <td><%= producto.title %></td>
+          <td><%= producto.thumbnail%></td>
+          <td><%= producto.price %></td>
+        </tr>
+        <% }) %>
+      </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+html
+    head
+        title Ejercicio PUG
+    body 
+        table
+            thead 
+                th Titulo
+                th Thumbnail 
+                th Precio 
+            tbody 
+                each prod in showProductos
+                    tr
+                            td= prod.title
+                            td
+                                img(style="width: 20px; height:20px" src=prod.thumbnail)
+                            td= prod.price
+    a(href="http://localhost:8082/") Cargar productos
+
+
+

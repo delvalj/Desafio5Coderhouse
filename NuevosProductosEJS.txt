@@ -1,0 +1,1 @@
+[{"title":"Disco de Pantera","thumbnail":"https://i.picsum.photos/id/1003/1181/1772.jpg?hmac=oN9fHMXiqe9Zq2RM6XT-RVZkojgPnECWwyEF1RvvTZk","price":"146","id":1},{"title":"Disco de Anthrax","thumbnail":"Anthrax","price":"362","id":2}]

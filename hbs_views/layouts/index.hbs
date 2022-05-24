@@ -1,0 +1,21 @@
+<html>
+  <head>Ejercicio 5 con Handlebars</head>
+<table>
+	<thead>
+		<th>Title</th>
+		<th>Price</th>
+		<th>Thumbnail</th>
+	</thead>
+	<tbody>
+		{{#each showProductos }}
+		<tr>
+			<td>{{title}}</td>
+			<td>{{price}}</td>
+			<td>{{thumbnail}}</td>
+		</tr>
+		  {{/each}}
+	</tbody>
+</table>
+    <a href="http://localhost:8082/">Cargar Productos</a>
+
+</html>
